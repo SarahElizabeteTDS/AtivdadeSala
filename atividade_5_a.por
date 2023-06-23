@@ -7,13 +7,13 @@ programa
 
 		escreva("Digite um número!\n")
 		leia(N)
-
-		enquanto(N >= valorPara)
+		limpa()
+		
+		enquanto(valorPara <= N)
 		{
-			escreva(N,"\n\n\n")
-			N--
+			escreva(valorPara,"\n\n\n")
+			valorPara++
 		}
 		
 	}
 }
-
